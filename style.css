@@ -29,7 +29,7 @@
 /* style main top - add task and section  */
 main {
   background-color: rgb(240, 240, 240);
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 #main-top {
@@ -42,9 +42,10 @@ main {
 }
 
 .main-button {
-  padding: 8px 12px;
+  padding: 14px 20px;
   border-radius: 6px;
   border: none;
+  font-size: 16px;
 }
 
 #task-button {
@@ -64,6 +65,8 @@ main {
   background-color: white;
   width: 70%;
   margin: auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 #nt-section {
@@ -138,3 +141,14 @@ main {
 }
 
 /* style main bottom - upcoming section */
+#upcoming-section {
+  padding: 40px 50px;
+}
+
+.pink-b {
+  background-color: rgb(199, 84, 199);
+}
+
+.yellow-b {
+  background-color: rgb(190, 190, 39);
+}
