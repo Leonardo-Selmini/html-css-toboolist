@@ -4,3 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* style header - box on top with logo  */
+#box-top {
+  height: 120px;
+}
+
+#logo {
+  height: 80px;
+  margin: 20px 20px 20px 30px;
+}
+
+#title {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 120px;
+  vertical-align: middle;
+}
