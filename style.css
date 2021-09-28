@@ -8,11 +8,13 @@
 /* style header - box on top with logo  */
 #box-top {
   height: 120px;
+  line-height: 120px;
 }
 
 #logo {
   height: 80px;
   margin: 20px 20px 20px 30px;
+  vertical-align: middle;
 }
 
 #title {
