@@ -26,13 +26,13 @@
   vertical-align: middle;
 }
 
-/* style main - div top - add task and section  */
+/* style main top - add task and section  */
 main {
   background-color: rgb(240, 240, 240);
   padding-top: 50px;
 }
 
-#div-top {
+#main-top {
   background-color: white;
   width: 70%;
   margin: auto;
@@ -50,11 +50,62 @@ main {
 #task-button {
   background-color: rgb(80, 162, 255);
   color: white;
-  margin: 20px 5px 10px 50px;
+  margin: 20px 5px 15px 50px;
 }
 
 #section-button {
   background-color: white;
   border: 1px solid rgb(220, 220, 220);
   color: rgb(220, 220, 220);
+}
+
+/* style main bottom - new task section */
+#main-bottom {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+}
+
+#nt-section {
+  padding: 40px 50px;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.text {
+  color: rgb(80,80,80);
+}
+
+.row{
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 20px;
+
+}
+
+.positive-icon {
+  /* margin-right: 5px; */
+  border: 2px solid rgb(54, 184, 54);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 10px;
+  color:rgb(54, 184, 54);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.section-button {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 8px;
+  color: white;
+}
+
+.blue-b {
+  background-color:rgb(80, 162, 255);
 }
