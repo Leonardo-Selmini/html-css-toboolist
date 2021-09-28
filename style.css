@@ -72,6 +72,7 @@ main {
 
 .section-title {
   font-size: 30px;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -80,19 +81,28 @@ main {
 
 .row{
   display: inline-block;
-  line-height: 60px;
+  line-height: 50px;
   vertical-align: middle;
   font-size: 20px;
 
 }
 
 .positive-icon {
-  /* margin-right: 5px; */
-  border: 2px solid rgb(54, 184, 54);
+  border: 2px solid rgb(111, 212, 111);
   border-radius: 50%;
   padding: 4px;
   font-size: 10px;
-  color:rgb(54, 184, 54);
+  color:rgb(111, 212, 111);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.negative-icon {
+  border: 2px solid rgb(218, 81, 81);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 10px;
+  color:rgb(218, 81, 81);
   vertical-align: middle;
   margin-right: 10px;
 }
@@ -109,3 +119,22 @@ main {
 .blue-b {
   background-color:rgb(80, 162, 255);
 }
+
+/* style main bottom - today section */
+#today-section{
+  margin: 0 50px;
+}
+
+.purple-b {
+  background-color: rgb(110, 97, 145);
+}
+
+.green-b {
+  background-color: rgb(111, 212, 111);
+}
+
+.orange-b {
+  background-color: lightsalmon;
+}
+
+/* style main bottom - upcoming section */
