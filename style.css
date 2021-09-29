@@ -6,10 +6,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: rgb(240, 240, 240);
+}
+
 /* style header - box on top with logo  */
 #box-top {
   height: 120px;
   line-height: 120px;
+  background-color: white;
 }
 
 #logo {
@@ -28,7 +33,6 @@
 
 /* style main top - add task and section  */
 main {
-  background-color: rgb(240, 240, 240);
   padding: 50px 0;
 }
 
